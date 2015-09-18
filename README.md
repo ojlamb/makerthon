@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/zlahham/makerthon.png?label=ready&title=Ready)](https://waffle.io/zlahham/makerthon)  [![Build Status](https://travis-ci.org/ojlamb/makerthon.svg?branch=master)](https://travis-ci.org/ojlamb/makerthon)
+[![Stories in Ready](https://badge.waffle.io/zlahham/makerthon.png?label=ready&title=Ready)](https://waffle.io/zlahham/makerthon)  [![Build Status](https://travis-ci.org/ojlamb/makerthon.svg?branch=master)](https://travis-ci.org/ojlamb/makerthon)  [![Code Climate](https://codeclimate.com/github/ojlamb/makerthon/badges/gpa.svg)](https://codeclimate.com/github/ojlamb/makerthon)
 
 #Makers Academy Makerthon Project
 ---
@@ -60,6 +60,7 @@ I would like to see a report if the votes over time
 
 ##Challenges
 * Designing a solution to push real-time events to the client.
+* Testing pusher
 * Learning how to use D3.js
 * Working under the pressure of a 2 day deadline
 

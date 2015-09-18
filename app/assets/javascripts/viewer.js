@@ -37,7 +37,7 @@ function chartCreate(upCount, downCount, neutralCount) {
       var outerRadius = w / 2;
       var innerRadius = w / 3;
       var arc = d3.svg.arc()
-              .innerRadius(innerRadius)
+              .innerRadius(innerRadius);
               .outerRadius(outerRadius);
 
       var pie = d3.layout.pie();
@@ -45,15 +45,15 @@ function chartCreate(upCount, downCount, neutralCount) {
       var color = d3.scale.ordinal().range(['#7ED321','#FF001F','#F8E71C']);
 
       var svg = d3.select("div#chart")
-            .append("svg")
-            .attr("width", w)
+            .append("svg");
+            .attr("width", w);
             .attr("height", h);
 
       var arcs = svg.selectAll("g.arc")
-              .data(pie(dataset))
-              .enter()
-              .append("g")
-              .attr("class", "arc")
+              .data(pie(dataset));
+              .enter();
+              .append("g");
+              .attr("class", "arc");
               .attr("transform", "translate(" + outerRadius + "," + outerRadius + ")");
 
       arcs.append("path")
