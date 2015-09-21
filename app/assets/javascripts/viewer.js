@@ -8,7 +8,7 @@
     }
   };
 
-  var pusher = new Pusher('da575b9edde9ebf3a600', {
+  var pusher = new Pusher('9a2f3193a0af5c40e9c0', {
     encrypted: true
   });
 
